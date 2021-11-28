@@ -225,12 +225,12 @@ display:flex;
     top:145px;
     text-align:initial;
 }
-@media screen and (max-width:415px) {
+/* @media screen and (max-width:415px) {
     #TeamSection{
         display:flex;
         flex-direction:column;
     }
-}
+} */
 @media screen and (max-width:415px) {
     #TeamSection span{
         position: relative;
@@ -313,8 +313,7 @@ display:flex;
 @media screen and (max-width:415px) {
     #ContactSection p{
         margin-left:0px;
-        margin-top:0px;
-        text-align:center;
+        margin-top:25px;
         margin-bottom:0px;
         }
 }
@@ -323,42 +322,43 @@ display:flex;
     margin-left:400px;
 }
 
-#phone{
+.phone{
     position: relative;
     top:30px;
     right:150px;       
     }
 @media screen and (max-width:415px) {
-        #phone{
+        .phone{
             position: relative;
-            bottom:750px;
-            left:2550px;
+            left:100px;
+            top:-98px;
     }
 }
-#envelope{
+.envelope{
     position: relative;
     top:60px;
     right:180px;
 }
-#plane{
+.plane{
     position: relative;
     top:100px;
     right:150px;
 }
 @media screen and (max-width:415px) {
-    #plane{
+    .plane{
         position: relative;
-        bottom:750px;
-        left:75px;
+        left:100px;
+        top:-48px;
     }
 }
 @media screen and (max-width:415px) {
-    #envelope{
+    .envelope{
         position: relative;
-        bottom:750px;
-        left:75px;
+        left:100px;
+        top:-71px;
     }
 }
+
 #ContactSection label{
  margin-left:250.5px;
  padding-right:50px;
@@ -366,7 +366,6 @@ display:flex;
 @media screen and (max-width:415px) {
     #ContactSection label{
         margin-left:0px;
-        padding-right:0px;
     }
 }
 #ContactSection input{
@@ -407,6 +406,12 @@ background-color:#0F1932 ;
     bottom:65px;
 }
 @media screen and (max-width:415px) {
+    .movingup {
+        position: relative;
+    bottom:35px;
+    }
+}
+@media screen and (max-width:415px) {
     #ContactSection {
         display:flex;
         flex-direction:column;
@@ -415,17 +420,21 @@ background-color:#0F1932 ;
 @media screen and (max-width:415px) {
     #ContactSection span{
         margin-left:0px;
-       text-align:center;
+       position: relative;
+       left:100px;
     }
 }
 @media screen and (max-width:415px) {
     #ContactSection button{
-        margin-left:0px;
+        position: relative;
+        left:-350px  ;
     }
 }
 @media screen and (max-width:415px) {
     #ContactSection textarea{
-        width:200px;
+        width:250px;
+        position: relative;
+        left: -25px;
     }
 }
 @media screen and (max-width:415px) {
@@ -433,10 +442,4 @@ background-color:#0F1932 ;
        display: none;
     }
 }
-@media screen and (max-width:415px) {
-    #phone{
-       position:relative;
-       left:-50px;
-       top:-65px;
-    }
-}
+
