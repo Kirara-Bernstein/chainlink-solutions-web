@@ -1,7 +1,7 @@
 body{
     margin: 0 250px;
     margin-top: 25px;
-    background-color: black;
+    background-color:#0F1932;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -30,4 +30,198 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
+}
+
+
+#mainSection{
+    margin-top:100px;
+    display: flex;
+    color: white;
+}
+
+#mainSection div{
+    flex: 50%;
+   color: #506180;
+   padding-right:50px;
+   font-size:18px;
+}
+
+#mainSection img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    font-size:17px;
+    font:bold;
+    color:white;
+    margin-top:25px;
+    background-color:#f42f54;
+    border-top-left-radius:25px;  
+    border-top-right-radius:25px;  
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px; 
+    width:150px;  
+    height:50px; 
+}
+button a{
+    text-decoration:none;
+    color:white;
+}
+#mainSection  h1{
+    color: white;
+    margin-bottom:25px;
+    font-size: 30px;
+}
+#featureSection{
+        margin-top:100px;
+        display: flex;
+        color: white;
+    }
+#featureSection img{
+    width: 1000px;
+    height: 250px;
+    position:absolute;
+}
+#featureSection div{
+    flex: 25%;
+    color: #506180;
+    font-size:18px;
+    position:relative;
+    margin-left:25px;
+    text-align:center;
+}
+#featureSection p{
+    color:#657899;
+}
+
+#featureSection h5{
+    color: white;
+    position:relative;
+    margin-bottom:25px;
+}
+.move{
+padding-bottom:18px;
+}
+#TeamSection h3{
+    padding-top:100px;
+    padding-bottom:25px;
+    color:white;
+    font-size:30px;
+    text-align:center;
+}
+#TeamSection p{
+    color:#657899;
+    font-size:15px;
+    text-align:center;
+}
+#TeamSection img{
+    height:100px;
+    width:100px;
+}
+.down{
+    margin-top:42px;
+}
+#TeamSection div{
+    margin-top: 25px;
+display:flex;
+    flex: 20%;
+}
+#TeamSection h2{
+    color: white;
+}
+#TeamSection span{
+    color: #657899;
+    position: relative;
+    top:80px;
+    right:150px;
+}
+.moveDown{
+    position: relative;
+    top:150px;
+}
+
+#PartnersSection p{
+    color:white;
+    font-size:15px;
+    text-align:center;
+    margin-top:350px;
+    flex:50%;
+}
+#PartnersSection img{
+    height:50px;
+    width:150px;
+    margin-right:10px;
+    margin-top:25px;
+}
+#ContactSection div{
+}
+#ContactSection img{
+    height:180px;
+    width:400px;
+    margin-right: 100px;
+    position: absolute;
+}
+#ContactSection {
+    display:flex;
+    flex:50%;
+    color:white;
+    margin-top:50px;
+}
+#ContactSection p{
+    color:white;
+    margin-left:150px;
+    margin-top:30px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+#ContactSection span{
+    font-size:30px;
+    margin-left:310px;
+}
+.center{
+    text-align:center;
+    flex:50%;
+}
+#phone{
+    position: relative;
+    top:30px;
+    right:150px;
+}
+#envelope{
+    position: relative;
+    top:60px;
+    right:180px;
+}
+#plane{
+    position: relative;
+    top:100px;
+    right:150px;
+}
+#ContactSection label{
+ margin-left:152px;
+
+}
+#ContactSection input{
+ border-radius:6px;;
+ border:1px solid #dbe4f7;
+ width:250px;
+margin-top:25px;
+line-height: 21px;
+}
+#ContactSection textarea{
+    margin-top:25px;
+    border-radius: 6px;
+    border: 1px,solid #dbe4f7;
+    width: 300px;
+    line-height: 21px;
+}
+#ContactSection button{
+    background-color:#f42f54;
+    border-top-left-radius:25px;  
+    border-top-right-radius:25px;  
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px; 
+    width:150px;  
+    height:50px; 
+    margin-left:350px;
 }
