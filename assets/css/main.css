@@ -150,13 +150,13 @@ display:flex;
     font-size:15px;
     text-align:center;
     margin-top:350px;
-    flex:50%;
 }
 #PartnersSection img{
     height:50px;
     width:150px;
-    margin-right:40px;
+    flex:20%;
     margin-top:25px;
+    padding-left:75px;
 }
 /*#ContactSection div{
 }*/
@@ -177,7 +177,7 @@ display:flex;
     margin-left:150px;
     margin-top:30px;
     text-align:center;
-    margin-bottom: 30px;
+    margin-bottom:30px;
 }
 #ContactSection span{
     font-size:30px;
@@ -204,6 +204,7 @@ display:flex;
 }
 #ContactSection label{
  margin-left:250.5px;
+ padding-right:50px;
 }
 #ContactSection input{
  border-radius:6px;;
@@ -222,6 +223,8 @@ background-color:#0F1932 ;
     background-color:#0F1932 ;
     color:white;
     height:75px;
+    position: relative;
+    right:25px;
 }
 ::placeholder{
     color:#566888;
@@ -234,7 +237,7 @@ background-color:#0F1932 ;
     border-bottom-left-radius:25px; 
     width:150px;  
     height:50px; 
-    margin-left:350px;
+    margin-left:500px;
 }
 .movingup{
     position: relative;
