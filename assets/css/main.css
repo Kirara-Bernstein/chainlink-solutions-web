@@ -3,7 +3,13 @@ body{
     margin: 0 150px;
     margin-top: 25px;
     background-color:#0F1932;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Now Bold', sans-serif;
+    overflow-x: hidden;
+}
+@media screen and (max-width:415px) {
+    body{
+        overflow-x: hidden;
+    }
 }
     nav{
     color: white;
@@ -129,9 +135,7 @@ button a{
         width:75%;
     }
 }
-.move{
-padding-bottom:18px;
-}
+
 #TeamSection h3{
     padding-top:100px;
     padding-bottom:25px;
@@ -148,9 +152,7 @@ padding-bottom:18px;
     height:130px;
     width:140px;
 }
-.down{
-    margin-top:42px;
-}
+
 #TeamSection div{
     margin-top: 25px;
 display:flex;
@@ -177,11 +179,40 @@ display:flex;
     }
 }
 @media screen and (max-width:415px) {
+    #TeamSection span{
+        position: relative;
+        top:0px;
+        right:0px;
+        padding-bottom:10px;
+    }
+}
+@media screen and (max-width:415px) {
+    #TeamSection h2{
+        position: relative;
+        top:0px;
+        right:0px;
+       
+    }
+}
+@media screen and (max-width:415px) {
     #TeamSection div{
         display:flex;
         flex-direction:column;
     }
 }
+@media screen and (max-width:415px) {
+    #TeamSection img{
+        padding-top:25px;
+    }
+}
+@media screen and (max-width:415px) {
+    .moveDown{
+        position: relative;
+        top:0px;
+        display:hidden;
+        }
+}
+
 .moveDown{
     position: relative;
     top:50px;
