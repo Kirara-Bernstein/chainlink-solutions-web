@@ -196,7 +196,6 @@ button a{
 }
 
 #TeamSection h3{
-    padding-top:100px;
     padding-bottom:25px;
     color:white;
     font-size:30px;
@@ -214,6 +213,7 @@ button a{
 
 #TeamSection div{
     margin-top: 25px;
+    margin-left:35px;
 display:flex;
     flex: 20%;
 }
@@ -284,13 +284,20 @@ display:flex;
     margin-top:25px;
         }
 }
-/*#ContactSection div{
-}*/
+@media screen and (max-width:415px) {
+    #PartnersSection img{
+        position: relative;
+        left:60px;
+        }
+}
+
 #ContactSection img{
     height:180px;
     width:400px;
     margin-right: 100px;
     position: absolute;
+    right:800px;
+    display:none;
 }
 #ContactSection {
     display:flex;
