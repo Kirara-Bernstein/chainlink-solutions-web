@@ -207,8 +207,8 @@ button a{
     text-align:center;
 }
 #TeamSection img{
-    height:130px;
-    width:140px;
+    height:140px;
+    width:170px;
 }
 
 #TeamSection div{
@@ -221,13 +221,13 @@ display:flex;
     color: white;
     position: relative;
     top:100px;
-    right:92px;
+    right:103px;
 
 }
 #TeamSection span{
     color: #657899;
      position: relative;
-    right:175px;
+    right:205px;
     top:145px;
     text-align:initial;
 }
