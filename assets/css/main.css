@@ -231,12 +231,6 @@ display:flex;
     top:145px;
     text-align:initial;
 }
-/* @media screen and (max-width:415px) {
-    #TeamSection{
-        display:flex;
-        flex-direction:column;
-    }
-} */
 @media screen and (max-width:415px) {
     #TeamSection span{
         position: relative;
@@ -259,11 +253,7 @@ display:flex;
         flex-direction:column;
     }
 }
-@media screen and (max-width:415px) {
-    #TeamSection img{
-        /* padding-top:25px; */
-    }
-}
+
 .moveDown{
     position: relative;
     top:50px;
@@ -272,7 +262,6 @@ display:flex;
     .moveDown{
         position: relative;
         top:0px;
-        /* display:hidden; */
         }
 }
 
