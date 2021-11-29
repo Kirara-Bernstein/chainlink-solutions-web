@@ -135,10 +135,10 @@ button a{
         color: white;
         flex:100%;
     }
-    @media screen and (max-width:415px) {
-        #featureSection{
-            display:flex;
-            flex-direction:column;
+@media screen and (max-width:415px) {
+    #featureSection{
+        display:flex;
+        flex-direction:column;
         }
     }
 #featureSection img{
@@ -146,6 +146,12 @@ button a{
     height: 250px;
     position:absolute;
 }
+@media screen and (max-width:415px){
+    #featureSection img{
+        display:none;
+    }
+}
+    
 #featureSection div{
     color: #506180;
     font-size:18px;
@@ -220,7 +226,7 @@ display:flex;
 }
 #TeamSection span{
     color: #657899;
-    position: relative;
+     position: relative;
     right:175px;
     top:145px;
     text-align:initial;
@@ -236,7 +242,7 @@ display:flex;
         position: relative;
         top:0px;
         right:0px;
-        padding-bottom:10px;
+        padding-bottom:25px;
     }
 }
 @media screen and (max-width:415px) {
@@ -255,21 +261,21 @@ display:flex;
 }
 @media screen and (max-width:415px) {
     #TeamSection img{
-        padding-top:25px;
+        /* padding-top:25px; */
     }
+}
+.moveDown{
+    position: relative;
+    top:50px;
 }
 @media screen and (max-width:415px) {
     .moveDown{
         position: relative;
         top:0px;
-        display:hidden;
+        /* display:hidden; */
         }
 }
 
-.moveDown{
-    position: relative;
-    top:50px;
-}
 #PartnersSection p{
     color:white;
     font-size:15px;
