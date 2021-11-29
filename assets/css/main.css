@@ -15,15 +15,18 @@ body{
     nav{
     color: white;
     display: flex;
+    position: relative;
+    bottom:75px;
 }
 nav img {
-    height: 100px;
+    height: 250px;
     width: auto;
 }
 @media screen and (max-width:415px) {
     nav img{
         position: relative;
-        left:115px;
+        left:85px;
+        top:15px
     }
 }
 
@@ -47,7 +50,6 @@ nav ul li a{
     color: white;
 }
 #mainSection{
-    margin-top:100px;
     display: flex;
     color: white;
 }
@@ -297,6 +299,7 @@ display:flex;
     margin-right: 100px;
     position: absolute;
     right:800px;
+    opacity:45%;
 }
 #ContactSection {
     display:flex;
