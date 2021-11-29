@@ -22,6 +22,8 @@
   width: 861px;
   font-weight: 700;
   margin: -57px auto 0;
+  text-align:center;
+  justify-content:center;
 }
 
 .u-section-1 .u-text-2 {
@@ -30,9 +32,11 @@
   width: 714px;
   font-weight: 300;
   font-size: 1.875rem;
-  font-family: Lato, sans-serif;
+  font-family: Lato, Now Bold;
   text-transform: none;
   margin: 32px auto 0;
+  justify-content:center;
+  text-align:center;
 }
 
 .u-section-1 .u-layout-wrap-1 {
