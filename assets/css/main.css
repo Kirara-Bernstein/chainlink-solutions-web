@@ -17,7 +17,7 @@ body{
     display: flex;
 }
 nav img {
-    height: 40px;
+    height: 100px;
     width: auto;
 }
 @media screen and (max-width:415px) {
@@ -297,7 +297,6 @@ display:flex;
     margin-right: 100px;
     position: absolute;
     right:800px;
-    display:none;
 }
 #ContactSection {
     display:flex;
